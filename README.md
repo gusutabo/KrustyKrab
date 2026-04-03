@@ -1,6 +1,6 @@
 # KrustyKrab
 
-[README - Português](./README-pt.md)
+[README - Português](./README-PT.md)
 
 > [!IMPORTANT]  
 > This project is currently minimal, under development, and not responsive yet (or maybe forever, cause I don't know if I'm going to touch it again).
@@ -18,12 +18,11 @@
 ### Clone the repository
 
 ```bash
-git clone https://github.com/seu-usuario/siri-cascudo.git
-cd siri-cascudo
+git clone https://github.com/gusutabo/KrustyKrab.git
 ```
 
 ### Open the project
-Just open the index.html file in your browser.
+Just open the `index.html` file in your browser.
 
 ## Goal
 The goal of this project is to practice HTML and CSS by building a simple themed website with multiple pages and a basic layout structure.
