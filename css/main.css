@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Slackey&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Slackey", sans-serif;
+}
+
+body {
+  background-color: #6ec6df;
+  color: #fff;
+}
+
+.line-after {
+  display: flex;
+  align-items: center;
+}
+
+.line-after::after {
+  content: '';
+  flex: 1;    
+  margin-left: 10px;
+  height: 1px;
+  background-color: #fff;
+}
+
+.navbar {
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  position: absolute;
+  width: 100%;
+  top: 0;
+}
+
+.navbar a {
+  color: #991b1f;
+  text-shadow: 0.5px 0.5px 1px #ffcc00;
+  text-decoration: none;
+  font-weight: bold;
+  letter-spacing: 1px;
+  transition: 0.3s;
+}
+
+.navbar a:hover {
+  color: #ffcc00;
+}
+
+.hero {
+  height: 100vh;
+  background-image: url('../img/bikini.webp');
+  background-size: cover;
+  background-position: center;
+}
+
+.about, .employer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0px;
+  padding: 50px 20px;
+}
+
+.about {
+  background-color: #6ec6df;
+}
+
+.about h1 {
+  padding: 20px 20px;
+  margin-bottom: 30px;
+  font-size: 40px;
+}
+
+.about p {
+  text-align: justify;
+  line-height: 1.6;
+  margin-top: 15px;
+}
+
+.employer {
+  background-color: #14738e;
+}
+
+.employer h1 {
+  padding: 20px 20px;
+  margin-bottom: 20px;
+  font-size: 40px;
+}
+
+.employer h2 {
+  font-size: 30px;
+}
+
+.menu, .reservas {
+  padding: 80px 20px;
+  margin-top: 60px;
+}
+
+.menu h2, .reservas h2 {
+  text-align: left;
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+
+.boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: right;
+  gap: 30px;
+}
+
+.box {
+  background-color: #0f3d4c;
+  width: 280px;
+  border-radius: 15px;
+  overflow: hidden;
+  transition: 0.3s;
+}
+
+.box:hover {
+  transform: translateY(-10px);
+}
+
+.box img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.box h2 {
+  padding: 15px;
+  font-size: 22px;
+}
+
+.box p {
+  padding: 0 15px 20px 15px;
+  color: #aaa;
+}
+
+.contato {
+  padding: 40px 20px;
+}
+
+.contato h2 {
+  text-align: left;
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+input, textarea {
+  width: 300px;
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+}
+
+button {
+  background-color: #ffcc00;
+  color: #991b1f;
+  padding: 12px 30px;
+  border-radius: 6px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+footer {
+  background-color: #14738e;
+  text-align: center;
+  padding: 20px;
+  color: #991b1f;
+  text-shadow: 0.5px 0.5px 1px #ffcc00;
+}
